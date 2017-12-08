@@ -1,3 +1,7 @@
+extern crate first::first;
+use first::first::List;
+
+#[cfg(test)]
 mod test {
     #[test]
     fn basics() {
@@ -28,5 +32,3 @@ mod test {
         assert_eq!(list.pop(), None);
     }
 }
-
-basics()
